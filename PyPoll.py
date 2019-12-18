@@ -1,8 +1,11 @@
+#import dependencies
 import os
 import csv
 
 # Path to collect data from the Resources folder
 csvpath = os.path.join('..','Resources','election_data.csv')
+
+# Create Variables 
 listOfCandidates = []
 listOfTotals = []
 voteCount = 0
@@ -12,7 +15,9 @@ totalVotes = 0
 winnerVotes = 0
 nameOfWinner = ""
 percentVotesPerCandidate = []
+
 #noOfTimesCandidatesAppearInList = total votes gained by each candidate
+# open File for read only
 
 with open('election_data.csv', 'r') as csvfile:
       
@@ -51,7 +56,7 @@ with open('election_data.csv', 'r') as csvfile:
           print()
           #percentVotesPerCandidate.append = (listOfTotals[candidateCount]/totalVotes*100)
           
-# to print to a output txt file
+# to print to a output txt file 
 with open('output.txt','a')as txtfile:
     txtfile.write("\nElection Results")  
     txtfile.write("\n--------------------------------------------------------------")
