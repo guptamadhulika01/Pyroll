@@ -4,6 +4,7 @@ import csv
 
 # Path to collect data from the Resources folder
 csvpath = os.path.join('..','Resources','election_data.csv')
+
 # Create Variables 
 listOfCandidates = []
 listOfTotals = []
@@ -14,6 +15,7 @@ totalVotes = 0
 winnerVotes = 0
 nameOfWinner = ""
 percentVotesPerCandidate = []
+
 #noOfTimesCandidatesAppearInList = total votes gained by each candidate
 # open File for read only
 
