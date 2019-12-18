@@ -4,6 +4,7 @@ import csv
 
 # Path to collect data from the Resources folder
 csvpath = os.path.join('..','Resources','election_data.csv')
+# Create Variables 
 listOfCandidates = []
 listOfTotals = []
 voteCount = 0
