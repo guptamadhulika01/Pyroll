@@ -21,6 +21,7 @@ candidateCount = 0
 totalVotes = 0
 
 winnerVotes = 0
+
 nameOfWinner = ""
 percentVotesPerCandidate = []
 
