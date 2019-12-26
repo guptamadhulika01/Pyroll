@@ -1,23 +1,33 @@
 #import dependencies
+
 import os
 import csv
 
 # Path to collect data from the Resources folder
 csvpath = os.path.join('..','Resources','election_data.csv')
 
-# Create Variables 
+# Create Variables needed
+
 listOfCandidates = []
+
 listOfTotals = []
+
 voteCount = 0
+
 candidatePosition = 0
+
 candidateCount = 0
+
 totalVotes = 0
+
 winnerVotes = 0
+
 nameOfWinner = ""
+
 percentVotesPerCandidate = []
 
 #noOfTimesCandidatesAppearInList = total votes gained by each candidate
-# open File for read only
+# open File for read only access
 
 with open('election_data.csv', 'r') as csvfile:
       
