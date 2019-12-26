@@ -23,6 +23,7 @@ totalVotes = 0
 winnerVotes = 0
 
 nameOfWinner = ""
+
 percentVotesPerCandidate = []
 
 #noOfTimesCandidatesAppearInList = total votes gained by each candidate
