@@ -12,6 +12,7 @@ listOfCandidates = []
 listOfTotals = []
 
 voteCount = 0
+
 candidatePosition = 0
 
 candidateCount = 0
