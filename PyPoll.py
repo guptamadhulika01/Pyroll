@@ -10,6 +10,7 @@ csvpath = os.path.join('..','Resources','election_data.csv')
 listOfCandidates = []
 
 listOfTotals = []
+
 voteCount = 0
 candidatePosition = 0
 
