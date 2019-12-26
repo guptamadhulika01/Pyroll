@@ -17,7 +17,7 @@ nameOfWinner = ""
 percentVotesPerCandidate = []
 
 #noOfTimesCandidatesAppearInList = total votes gained by each candidate
-# open File for read only
+# open File for read only access
 
 with open('election_data.csv', 'r') as csvfile:
       
